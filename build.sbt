@@ -31,7 +31,7 @@ lazy val `domofon-akka-http` =
         "ch.megard" %% "akka-http-cors" % "0.1.1",
         "com.typesafe.akka" %% "akka-stream-testkit" % akkaVersion % "test",
         "com.typesafe.akka" %% "akka-http-testkit" % akkaVersion % "test",
-        "com.blstream.domofon" %% "tck" % "0.4.2" % "test"
+        "com.blstream.domofon" %% "tck" % "0.5.1" % "test"
       )
     )
     .settings(SbtScalariform.defaultScalariformSettings)
